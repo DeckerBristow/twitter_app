@@ -1,0 +1,40 @@
+.screen{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left:  25px;
+   
+}
+
+.background{
+    position: absolute;
+    width: 100%;
+    height: 500%;
+    left: 0;
+    top: 0;
+    z-index: -10;
+    background-image: url("../twitterLogo.jpg");
+    opacity: .6;
+
+}
+
+.tweetsArray{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    align-content: space-between;
+
+}
+
+input{
+    color: blue;
+    width: 150px;
+}
+
+.contentInput{
+    height: 75px;
+}
+
+button{
+    width: 75px;
+}
